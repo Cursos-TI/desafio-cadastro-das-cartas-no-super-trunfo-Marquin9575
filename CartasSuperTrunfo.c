@@ -19,22 +19,22 @@ int main() {
     scanf("%d", &códigodacidade);
 
     printf("População da cidade: \n");
-    scanf("%f", população);
+    scanf("%f", &população);
 
     printf("Área em KM² da cidade: \n");
-    scanf("%f", área);
+    scanf("%f", &área);
 
     printf("Qual o PIB da cidade: \n");
-    scanf("%f", PIB);
+    scanf("%f", &PIB);
 
     printf("Pontos turísticos: \n");
-    scanf("%d", pontosturísticos);
+    scanf("%d", &pontosturísticos);
 
     printf("Cidade: %s \n", nome);
     printf("Código: %d \n", códigodacidade);
-    printf("População: %f \n", população);
-    printf("Área KM²: %f \n", área);
-    printf("PIB: %f \n", PIB);
+    printf("População: %.3f \n", população); 
+    printf("Área: %.1f KM² \n", área);       
+    printf("PIB: %.3f \n", PIB);  
     printf("Pontos turísticos: %d \n", pontosturísticos);
 
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
